@@ -1,5 +1,6 @@
 class Author 
   @@post_count = 0 
+  @@all = []
   attr_accessor :name 
   
   def initialize(name)
