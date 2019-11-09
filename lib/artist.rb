@@ -25,6 +25,7 @@ class Artist
   
   def songs
     @songs
+    binding.pry 
   end
   
   def self.song_count
